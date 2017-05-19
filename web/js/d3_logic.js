@@ -129,8 +129,7 @@ function createChart(test_data, geoId, divId, test_object, sortDivId) {
 			
 			highlightMapByGeoId(d[geoId]);
 
-			// $("map-details-ct").attr
-			// $("map-details-ng").attr
+			$("#map-details-ct").html(d['GEOID102012']);
 			$("#map-details-inc").html(d['INCOME2012'] ? d['INCOME2012'] : d['INCOME2016']);
 			$("#map-details-white").html(d['WHITE2012'] ? d['WHITE2012'] : d['WHITE2016']);
 			$("#map-details-section8").html(d['SECTION82012'] ? d['SECTION82012'] : d['SECTION82016']);
